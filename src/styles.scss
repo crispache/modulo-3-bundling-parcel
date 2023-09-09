@@ -1,0 +1,10 @@
+
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+.title {
+  font-size: $fontsize;
+  background-color: $bgcolor;
+  color: $textcolor;
+}
