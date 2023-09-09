@@ -2,8 +2,13 @@
   "name": "parcel",
   "version": "1.0.0",
   "description": "Ejecicio del modulo 3 con parcel",
-  "main": "index.js",
+  "browserslist": [
+    "defaults"
+  ],
+  "source": "./src/index.html",
   "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
